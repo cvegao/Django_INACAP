@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+}
+
+#clock {
+    background-color: lightblue;
+    display: inline-block;
+    border: 1px solid green;
+    padding: 20px;
+    margin: auto;
+}
