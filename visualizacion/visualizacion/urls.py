@@ -19,6 +19,7 @@ from django.urls import path, include
 import time_display
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # path('admin/', admin.site.urls),
     path('', include('time_display.urls')),
+    path('random_word/', include('random_word.urls')),
 ]

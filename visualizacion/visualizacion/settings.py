@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'time_display',
+    'random_word',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -55,8 +56,8 @@ ROOT_URLCONF = 'visualizacion.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'time_display/templates']
-        ,
+        'DIRS': [BASE_DIR / 'time_display/templates',
+                 BASE_DIR / 'random_word/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
