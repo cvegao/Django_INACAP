@@ -1,0 +1,59 @@
+{% extends "sql_orm/base.html" %}
+
+{% block title %}Wizards Manager{% endblock %}
+
+{% block content %}
+    <div class="text-center">
+        <h1>Wizards Manager</h1>
+    </div>
+    <div class="container">
+        <div class="container my-3">
+            <a class="btn btn-success" href="{% url 'create_wizard' %}">Create new wizard</a>
+        </div>
+        <table class="table table-striped table-dark">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>House</th>
+                    <th>Pet</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for wizard in wizard_list %}
+                    <tr>
+                        <td>{{ wizard.id }}</td>
+                        <td>{{ wizard.name }}</td>
+                        <td>{{ wizard.house }}</td>
+                        <td>{{ wizard.pet }}</td>
+                        <td>{{ wizard.year }}</td>
+                        <td>
+                            <form action="{% url 'edit_wizard_form' %}" method="POST">
+                                {% csrf_token %}
+                                <input type="hidden" name="id" value="{{ wizard.id }}">
+                                <button class="btn btn-warning" type="submit">Edit</button>
+                            </form>
+                        </td>
+                        <td>
+                            <form action="{% url 'delete_wizard' %}" method="POST" onsubmit="confirm('Do you really want to delete wizard {{ wizard.name }}?');">
+                                {% csrf_token %}
+                                <input type="hidden" name="id" value="{{ wizard.id }}">
+                                <button class="btn btn-danger" type="submit">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function show_alert() {
+          if(!confirm('Do you really want to delete wizard {{ wizard.name }}?')) {
+            return false;
+          }
+          this.form.submit();
+        }
+    </script>
+{% endblock %}
