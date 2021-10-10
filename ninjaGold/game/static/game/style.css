@@ -1,0 +1,24 @@
+#ninja_gold {
+    border: 2px solid black;
+    display: inline-block;
+    width: 80px;
+    padding-left: 5px;
+}
+
+.scroll {
+    overflow: auto;
+    height: 150px;
+    padding: 10px;
+}
+
+.width-200 {
+    width: 200px;
+}
+
+.ninja-place {
+    border: 2px solid black;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 50px;
+}

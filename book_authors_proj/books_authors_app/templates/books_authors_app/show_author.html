@@ -1,0 +1,46 @@
+{% extends 'books_authors_app/base.html' %}
+
+{% block content %}
+    <div class="container my-5">
+        <h2>{{ author.first_name }} {{ author.last_name }}</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <p>ID:</p>
+                </div>
+                <div class="col-8">
+                    <p> {{ author.id }}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <p>Notes:</p>
+                </div>
+                <div class="col-8">
+                    <p> {{ author.notes }}</p>
+                </div>
+            </div>
+            <div class="row">
+                <p>Books:</p>
+                <ul>
+                    {% for book in author.books.all %}
+                    <li>{{ book.title }}</li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+        </div>
+
+        <form method="post" action="{% url 'assign_book' %}">
+            {% csrf_token %}
+            <input type="hidden" name="author_id" value="{{ author.id }}">
+            <select name="book_id">
+            <option>-select a book-</option>
+                {% for book in books_list.all %}
+                    <option value="{{ book.id }}">{{ book.title }}</option>
+                {% endfor %}
+            </select>
+                    <button type="submit" class="btn btn-primary">Add</button>
+                </form>
+    </div>
+{% endblock %}

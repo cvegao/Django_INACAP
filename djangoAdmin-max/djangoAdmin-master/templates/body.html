@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+
+ {% include 'navbar.html' %}
+
+{% include 'sidebar.html' %}
+
+{% block wrapper %}
+{% endblock  %}
+
+ {% include 'asidebarizq.html' %}
+
+ {% include 'footer.html'%}
+</div>
+<!-- ./wrapper -->
+{% block scripts %}
+<!-- REQUIRED SCRIPTS -->
+
+
+<!-- jQuery -->
+        <script type="application/javascript">
+            $(function () {
+                $('#data').DataTable({
+                    responsive: true,
+                    autoWidth: false,
+                    dom: 'lfrtBip',
+                    buttons: [
+                     {
+        //Botón para Excel
+        extend: 'excel',
+        footer: true,
+        title: 'Archivo',
+        filename: 'Export_File',
+
+        //Aquí es donde generas el botón personalizado
+        text: '<button class="btn btn-success">Exportar a Excel <i class="fas fa-file-excel"></i></button>'
+      },
+           //Botón para PDF
+      {
+        extend: 'pdf',
+        footer: true,
+        title: 'Archivo PDF',
+        filename: 'Export_File_pdf',
+        text: '<button class="btn btn-danger">Exportar a PDF <i class="far fa-file-pdf"></i></button>'
+      }
+      
+                     ]
+                });
+            });
+        </script>
+
+
+
+
+{% endblock %}
+</body>
+{% endblock %}

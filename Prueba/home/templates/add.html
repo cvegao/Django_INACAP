@@ -1,0 +1,17 @@
+<div class="container d-inline-block border border-3">
+    <form action="{% url 'add'%}">
+{% csrf_token %}
+       <label for="task">Task: </label>
+       <input type="text" name="task" id="task">
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date">
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          
+          <button type="submit">Add</button>
+    </form>
+</div>

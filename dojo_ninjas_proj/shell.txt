@@ -1,0 +1,40 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 from dojo_ninjas_app.models import *\
+\
+dojo1 = Dojo.objects.create(name="DOJO1", city="Coding", state="Dojo")\
+dojo2 = Dojo.objects.create(name="DOJO2", city="Coding", state="Dojo")\
+dojo3 = Dojo.objects.create(name="DOJO3", city="Coding", state="Dojo")\
+\
+dojo1.delete()\
+dojo2.delete()\
+dojo3.delete()\
+\
+dojo4 = Dojo.objects.create(name="DOJO4", city="Coding", state="Dojo")\
+dojo5 = Dojo.objects.create(name="DOJO5", city="Coding", state="Dojo")\
+dojo6 = Dojo.objects.create(name="DOJO6", city="Coding", state="Dojo")\
+\
+ninja1_4 = Ninja.objects.create(first_name="NINJA1_4", last_name="DOJO4", dojo=dojo4)\
+ninja2_4 = Ninja.objects.create(first_name="NINJA2_4", last_name="DOJO4", dojo=dojo4)\
+ninja3_4 = Ninja.objects.create(first_name="NINJA3_4", last_name="DOJO4", dojo=dojo4)\
+\
+ninja1_5 = Ninja.objects.create(first_name="NINJA1_5", last_name="DOJO5", dojo=dojo5)\
+ninja2_5 = Ninja.objects.create(first_name="NINJA2_5", last_name="DOJO5", dojo=dojo5)\
+ninja3_5 = Ninja.objects.create(first_name="NINJA3_5", last_name="DOJO5", dojo=dojo5)\
+\
+ninja1_6 = Ninja.objects.create(first_name="NINJA1_6", last_name="DOJO6", dojo=dojo6)\
+ninja2_6 = Ninja.objects.create(first_name="NINJA2_6", last_name="DOJO6", dojo=dojo6)\
+ninja3_6 = Ninja.objects.create(first_name="NINJA3_6", last_name="DOJO6", dojo=dojo6)\
+\
+first_dojo_ninjas = Ninja.objects.filter(dojo=Dojo.objects.first())\
+\
+last_dojo_ninjas = Ninja.objects.filter(dojo=Dojo.objects.last())\
+\
+new_dojo = Dojo.objects.create(name="NEW DOJO", city="Coding", state="Dojo", desc="TEXT FIELD")\
+\
+}

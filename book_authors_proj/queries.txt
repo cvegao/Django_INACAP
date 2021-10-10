@@ -1,0 +1,91 @@
+from books_authors_app.models import *
+
+# Consulta: crea 5 libros con los siguientes nombres: C Sharp, Java, Python, PHP, Ruby
+book1 = Book.objects.create(title="C Sharp")
+book2 = Book.objects.create(title="Java")
+book3 = Book.objects.create(title="Python")
+book4 = Book.objects.create(title="PHP")
+book5 = Book.objects.create(title="Ruby")
+
+# Consulta: Crea 5 autores diferentes: Jane Austen, Emily Dickinson, Fyodor Dostoevksy, William Shakespeare, Lau Tzu
+author1 = Author.objects.create(first_name="Jane", last_name="Austen")
+author2 = Author.objects.create(first_name="Emily", last_name="Dickinson")
+author3 = Author.objects.create(first_name="Fyodor", last_name="Dostoevksy")
+author4 = Author.objects.create(first_name="William", last_name="Shakespeare")
+author5 = Author.objects.create(first_name="Lau", last_name="Tzu")
+
+# Agregue un nuevo campo de texto en la tabla de autores llamado 'notas'.
+
+# Consulta: cambie el nombre del libro de C Sharp a C #
+Book.objects.filter(title="C Sharp").update(title="C #")
+
+# Consulta: cambie el nombre del cuarto autor a Bill
+author = Author.objects.order_by('id')[3]
+author.first_name = "Bill"
+author.save()
+
+# Consulta: Asigna el primer autor a los primeros 2 libros.
+author1 = Author.objects.order_by('id')[0]
+books = Book.objects.order_by('id')
+book1 = books[0]
+book1.authors.add(author1)
+book1.save()
+book2 = books[1]
+book2.authors.add(author1)
+book2.save()
+
+# Consulta: Asigne el segundo autor a los primeros 3 libros.
+author2 = Author.objects.order_by('id')[1]
+books = Book.objects.order_by('id')[0:3]
+for book in books:
+    book.authors.add(author2)
+    book.save()
+
+# Consulta: Asigna el tercer autor a los primeros 4 libros.
+author3 = Author.objects.order_by('id')[2]
+books = Book.objects.order_by('id')[0:4]
+for book in books:
+    book.authors.add(author3)
+    book.save()
+
+# Consulta: Asigne el cuarto autor a los primeros 5 libros (o en otras palabras, todos los libros)
+author4 = Author.objects.order_by('id')[3]
+books = Book.objects.all()
+for book in books:
+    book.authors.add(author4)
+    book.save()
+
+# Consulta: recupera a todos los autores del tercer libro
+book3 = Book.objects.order_by('id')[2]
+book3_authors = book3.authors.all()
+
+# Consulta: eliminar al primer autor del tercer libro
+book3.authors.remove(book3_authors[0])
+book3.save()
+
+# Consulta: Agregue el quinto autor como uno de los autores del segundo libro.
+book2 = Book.objects.all()[1]
+author5 = Author.objects.all()[4]
+book2.authors.add(author5)
+book2.save()
+
+# Consulta: Encuentra todos los libros de los que el tercer autor es parte
+author3 = Author.objects.all()[2]
+author3_books = author3.books.all()
+
+# Consulta: Encuentra todos los autores que contribuyeron al quinto libro.
+book2 = Book.objects.all()[4]
+book2_authors = book2.authors.all()
+print(book2_authors)
+
+# TORPEDO
+books = Book.objects.all()
+for book in books:
+    print(book.title)
+    for author in book.authors.all():
+        print("-"*3 + author.last_name)
+
+books = Book.objects.all()
+for book in books:
+    book.authors.clear()
+    book.save()

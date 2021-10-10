@@ -1,0 +1,13 @@
+.container {
+    text-align: center;
+}
+
+#word {
+    border: 5px solid black;
+    display: inline-block;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="wrapper">
+    {% include "navbar.html" %}
+
+    <!--begin::Table-->
+{% load utils %}
+    <div class="container">
+        <table class="display scrollable-table" style="width:100%">
+        <thead>
+            <tr>
+                {% for attr_name in attr_names %}
+                    <th>{{ attr_name }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in list_items %}
+                <tr>
+                    {% for attr_name in attr_names %}
+                        <td>{{ i|getattribute:attr_name }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+        </table>
+    </div>
+    <!--end::Table-->
+</div>
+{% endblock %}
