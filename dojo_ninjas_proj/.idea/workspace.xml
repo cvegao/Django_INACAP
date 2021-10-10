@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="744552ac-e69f-4057-8f89-ee47ae45a83c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/.idea/book_authors_proj.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/book_authors_proj/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/book_authors_proj/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/book_authors_proj/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/book_authors_proj/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/book_authors_proj/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/books_authors_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/books_authors_app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/books_authors_app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/books_authors_app/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/books_authors_app/migrations/0002_auto_20210925_1254.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/books_authors_app/migrations/0003_alter_author_last_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/books_authors_app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/books_authors_app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/books_authors_app/templates/books_authors_app/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/books_authors_app/templates/books_authors_app/books.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/books_authors_app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/books_authors_app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/books_authors_app/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_authors_proj/queries.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e0c1d6d9-f8f5-4102-ab5a-63d0482f24c5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e0c1d6d9-f8f5-4102-ab5a-63d0482f24c5/entities/entities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e0c1d6d9-f8f5-4102-ab5a-63d0482f24c5/entities/entities.dat.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e0c1d6d9-f8f5-4102-ab5a-63d0482f24c5/entities/entities.dat.values" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e0c1d6d9-f8f5-4102-ab5a-63d0482f24c5/entities/entities.dat.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e0c1d6d9-f8f5-4102-ab5a-63d0482f24c5/entities/entities.dat.values.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e0c1d6d9-f8f5-4102-ab5a-63d0482f24c5/entities/entities.dat_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e0c1d6d9-f8f5-4102-ab5a-63d0482f24c5/entities/entities.dat_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dojo_ninjas_proj.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dojo_ninjas_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dojo_ninjas_app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dojo_ninjas_app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dojo_ninjas_app/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dojo_ninjas_app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dojo_ninjas_app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dojo_ninjas_app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dojo_ninjas_app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dojo_ninjas_app/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dojo_ninjas_proj/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dojo_ninjas_proj/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dojo_ninjas_proj/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dojo_ninjas_proj/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dojo_ninjas_proj/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba_c/.idea/prueba_c.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/.idea/template.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/login/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/login/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/login/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/login/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/login/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/login/resources/templates/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/login/resources/templates/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/login/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/login/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/login/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/main_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/main_app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/main_app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/main_app/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/main_app/migrations/0002_auto_20210926_2321.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/main_app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/main_app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/main_app/templates/main_app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/main_app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/main_app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/main_app/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/css/util.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/Montserrat-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/montserrat/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/fonts/poppins/Poppins-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/images/icons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/images/img-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/animate/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/bootstrap/js/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/jquery/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/select2/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/static/vendor/tilt/tilt.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/resources/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orm2/.idea/dataSources/6eb77d93-1d6b-4db6-918b-7c73a36aea9e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../orm2/.idea/dataSources/6eb77d93-1d6b-4db6-918b-7c73a36aea9e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orm2/.idea/dataSources/6eb77d93-1d6b-4db6-918b-7c73a36aea9e/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../orm2/.idea/dataSources/6eb77d93-1d6b-4db6-918b-7c73a36aea9e/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orm2/.idea/dataSources/6eb77d93-1d6b-4db6-918b-7c73a36aea9e/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/../orm2/.idea/dataSources/6eb77d93-1d6b-4db6-918b-7c73a36aea9e/entities/entities.dat.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orm2/.idea/dataSources/6eb77d93-1d6b-4db6-918b-7c73a36aea9e/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../orm2/.idea/dataSources/6eb77d93-1d6b-4db6-918b-7c73a36aea9e/entities/entities.dat.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orm2/.idea/dataSources/6eb77d93-1d6b-4db6-918b-7c73a36aea9e/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/../orm2/.idea/dataSources/6eb77d93-1d6b-4db6-918b-7c73a36aea9e/entities/entities.dat.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orm2/.idea/dataSources/6eb77d93-1d6b-4db6-918b-7c73a36aea9e/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/../orm2/.idea/dataSources/6eb77d93-1d6b-4db6-918b-7c73a36aea9e/entities/entities.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orm2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../orm2/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ySy3PKH7RjEGfZZXurwbQo3dz0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="dojo_ninjas_proj" type="Python.DjangoServer" factoryName="Django server">
+      <module name="dojo_ninjas_proj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="744552ac-e69f-4057-8f89-ee47ae45a83c" name="Changes" comment="" />
+      <created>1632259083776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632259083776</updated>
+      <workItem from="1632259085391" duration="2589000" />
+      <workItem from="1632265459191" duration="1363000" />
+      <workItem from="1632812949832" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
