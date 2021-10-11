@@ -5,6 +5,7 @@
 </head>
 <body>
 <div class="container">
+    <h1>Parte I</h1>
     <ol>
         <li>
             <h3>Todas las ligas de béisbol</h3>
@@ -38,7 +39,7 @@
                 {% endfor %}
             </ol>
         </li>
-    <li>
+        <li>
             <h3>Todas las ligas de la región atlántica</h3>
             <ol>
                 {% for liga in ligasAtlantic %}
@@ -46,7 +47,7 @@
                 {% endfor %}
             </ol>
         </li>
-    <li>
+        <li>
             <h3>Todos los equipos con sede en Dallas</h3>
             <ol>
                 {% for equipo in equiposDallas %}
@@ -54,7 +55,7 @@
                 {% endfor %}
             </ol>
         </li>
-    <li>
+        <li>
             <h3>Todos los equipos nombraron los Raptors</h3>
             <ol>
                 {% for equipo in equiposRaptors %}
@@ -62,7 +63,7 @@
                 {% endfor %}
             </ol>
         </li>
-    <li>
+        <li>
             <h3>Todos los equipos cuya ubicación incluye "Ciudad"</h3>
             <ol>
                 {% for equipo in equiposCity %}
@@ -70,7 +71,7 @@
                 {% endfor %}
             </ol>
         </li>
-    <li>
+        <li>
             <h3>Todos los equipos cuyos nombres comienzan con "T"</h3>
             <ol>
                 {% for equipo in equiposT %}
@@ -78,7 +79,7 @@
                 {% endfor %}
             </ol>
         </li>
-    <li>
+        <li>
             <h3>Todos los equipos, ordenados alfabéticamente por ubicación</h3>
             <ol>
                 {% for equipo in equiposSortedByLocation %}
@@ -86,7 +87,7 @@
                 {% endfor %}
             </ol>
         </li>
-    <li>
+        <li>
             <h3>Cada jugador con apellido "Cooper"</h3>
             <ol>
                 {% for jugador in jugadoresCooper %}
@@ -94,7 +95,7 @@
                 {% endfor %}
             </ol>
         </li>
-    <li>
+        <li>
             <h3>Todos los jugadores con el apellido "Cooper" EXCEPTO aquellos con "Joshua" como primer nombre</h3>
             <ol>
                 {% for jugador in jugadoresCooperNoJoshua %}
@@ -102,11 +103,137 @@
                 {% endfor %}
             </ol>
         </li>
-    <li>
+        <li>
             <h3>Todos los jugadores con nombre "Alexander" O nombre "Wyatt"</h3>
             <ol>
                 {% for jugador in jugadoresAlexanderWyatt %}
                     <li>{{ jugador.first_name }}{{ jugador.last_name }}</li>
+                {% endfor %}
+            </ol>
+        </li>
+    </ol>
+
+    <h1>Parte II</h1>
+    <ol>
+        <li>
+            <h3>Todos los equipos en la Atlantic Soccer Conference</h3>
+            <ol>
+                {% for equipo in equiposASC %}
+                    <li>{{ equipo.team_name }}</li>
+                {% endfor %}
+            </ol>
+        </li>
+        <li>
+            <h3>Todos los jugadores (actuales) en los Boston Penguins</h3>
+            <ol>
+                {% for jugador in jugadoresBP %}
+                    <li>{{ jugador.first_name }} {{ jugador.last_name }}</li>
+                {% endfor %}
+            </ol>
+        </li>
+        <li>
+            <h3>Todos los jugadores (actuales) en la International Collegiate Baseball Conference</h3>
+            <ol>
+                {% for jugador in jugadoresICBC %}
+                    <li>{{ jugador.first_name }} {{ jugador.last_name }}</li>
+                {% endfor %}
+            </ol>
+        </li>
+        <li>
+            <h3>Todos los jugadores (actuales) en la Conferencia Americana de Fútbol Amateur con el apellido
+                "López"</h3>
+            <ol>
+                {% for jugador in jugadoresACAF %}
+                    <li>{{ jugador.first_name }} {{ jugador.last_name }}</li>
+                {% endfor %}
+            </ol>
+        </li>
+        <li>
+            <h3>Todos los jugadores de fútbol</h3>
+            <ol>
+                {% for jugador in jugadoresFutbol %}
+                    <li>{{ jugador.first_name }} {{ jugador.last_name }}</li>
+                {% endfor %}
+            </ol>
+        </li>
+        <li>
+            <h3>Todos los equipos con un jugador (actual) llamado "Sophia"</h3>
+            <ol>
+                {% for equipo in equiposSophia %}
+                    <li>{{ equipo.team_name }}</li>
+                {% endfor %}
+            </ol>
+        </li>
+        <li>
+            <h3>Todas las ligas con un jugador (actual) llamado "Sophia"</h3>
+            <ol>
+                {% for liga in ligasSophia %}
+                    <li>{{ liga.name }}</li>
+                {% endfor %}
+            </ol>
+        </li>
+        <li>
+            <h3>Todos con el apellido "Flores" que NO (actualmente) juegan para los Washington Roughriders</h3>
+            <ol>
+                {% for jugador in jugadoresFloresNoWR %}
+                    <li>{{ jugador.first_name }} {{ jugador.last_name }}</li>
+                {% endfor %}
+            </ol>
+        </li>
+        <li>
+            <h3>Todos los equipos, pasados y presentes, con los que Samuel Evans ha jugado</h3>
+            <ol>
+                {% for equipo in equiposSamuelE %}
+                    <li>{{ equipo.location }} {{ equipo.team_name }}</li>
+                {% endfor %}
+            </ol>
+        </li>
+        <li>
+            <h3>Todos los jugadores, pasados y presentes, con los gatos tigre de Manitoba</h3>
+            <ol>
+                {% for jugador in jugadoresMTC %}
+                    <li>{{ jugador.first_name }} {{ jugador.last_name }}</li>
+                {% endfor %}
+            </ol>
+        </li>
+        <li>
+            <h3>Todos los jugadores que anteriormente estaban (pero que no lo están) con los Wichita Vikings</h3>
+            <ol>
+                {% for jugador in jugadoresWV %}
+                    <li>{{ jugador.first_name }} {{ jugador.last_name }}</li>
+                {% endfor %}
+            </ol>
+        </li>
+        <li>
+            <h3>Cada equipo para el que Jacob Gray jugó antes de unirse a los Oregon Colts</h3>
+            <ol>
+                {% for equipo in equiposJacobGray %}
+                    <li>{{ equipo.location }} {{ equipo.team_name }}</li>
+                {% endfor %}
+            </ol>
+        </li>
+        <li>
+            <h3>Todos llamados "Joshua" que alguna vez han jugado en la Federación Atlántica de Jugadores de Béisbol
+                Amateur</h3>
+            <ol>
+                {% for jugador in joshuaAFABP %}
+                    <li>{{ jugador.first_name }} {{ jugador.last_name }}</li>
+                {% endfor %}
+            </ol>
+        </li>
+        <li>
+            <h3>Todos los equipos que han tenido 12 o más jugadores, pasados y presentes</h3>
+            <ol>
+                {% for equipo in equiposSobre12 %}
+                    <li>{{ equipo.location }} {{ equipo.team_name }}</li>
+                {% endfor %}
+            </ol>
+        </li>
+        <li>
+            <h3>Todos los jugadores y el número de equipos para los que jugó, ordenados por la cantidad de equipos para los que han jugado</h3>
+            <ol>
+                {% for jugador in jugadoresEquipos %}
+                    <li>{{ jugador.first_name }} {{ jugador.last_name }} ({{ jugador.count }})</li>
                 {% endfor %}
             </ol>
         </li>
