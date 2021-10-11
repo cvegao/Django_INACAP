@@ -1,0 +1,37 @@
+{% extends 'shows_crud/base.html' %}
+
+{% block title %}Create{% endblock %}
+
+{% block content %}
+    <div class="container" style="width: 40%;">
+        <h1>Add a New Show</h1>
+        {% for message in message.messages %}
+            <p class="text-danger">{{ message }}</p>
+        {% endfor %}
+        <form method="post" action="{% url 'create_show' %}">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="title" class="control-label">Title</label>
+                <input type="text" class="form-control" name="title" id="title" value="{{ show.title }}">
+            </div>
+            <div class="row">
+                <div class="col-6 form-group">
+                    <label for="network" class="control-label">Network</label>
+                    <input type="text" class="form-control" name="network" id="network" value="{{ show.network }}">
+                </div>
+                <div class="col-6 form-group">
+                    <label for="release_date" class="control-label">Release Date</label>
+                    <input type="date" class="form-control" name="release_date" id="release_date"
+                           value="{{ show.release_date }}">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="description" class="control-label">Description</label>
+                <textarea name="description" class="form-control" id="description">{{ show.description }}</textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary py-5">Create</button>
+            </div>
+        </form>
+    </div>
+{% endblock %}

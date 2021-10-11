@@ -1,0 +1,21 @@
+{% extends 'shows_crud/base.html' %}
+
+{% block title %}Read (One){% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>TV Show {{ show.id }}</h1>
+    <div class="container">
+        <p><strong>Title: </strong>{{ show.title }}</p>
+        <p><strong>Network: </strong>{{ show.network }}</p>
+        <p><strong>Release Date: </strong>{{ show.release_date|date:'M d, Y' }}</p>
+        <p><strong>Description: </strong>{{ show.description }}</p>
+    </div>
+    <div class="container pt-5">
+        <p><strong>Last Updated at: </strong>{{ show.updated_at|date:'M d, Y' }}{{ show.updated_at|time:'P' }}</p>
+        <a href="{% url 'edit_show' show.id %}">Edit</a>
+        <a href="{% url 'destroy' show.id %}">Delete</a>
+    </div>
+</div>
+
+{% endblock %}
